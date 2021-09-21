@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", "Arial", sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* Header */ 
+#header {
+    background-color: #f6f6f9;
+}
+
+.header-about {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header-brand {
+    display: block;
+    color: #7296EE;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 9px 6px;
+    border-radius: 7px;
+    margin-right: 35px;
+}
+
+.header-title {
+    margin: 0;
+}
+
+#header nav {
+    margin-right: auto;
+}
+
+.money-list {
+    display: flex;
+}
+
+.money-item {
+    display: flex;
+    margin-right: 25px;
+}
+
+.money-item .money-symbol {
+    margin-right: 3px;
+    color: #295091;
+}
+
+.money-item .money-value {
+    color: #525252;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    width: 275px;
+    height: 45px;
+    background-color: #FFF;
+    border-radius: 60px;
+    padding: 15px;
+    color: #8D8D8D;
+    margin-right: 25px;
+}
+
+.header-search i {
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+
+.header-search .search-btn {
+    border: none;
+    outline: none;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-language {
+    width: 70px;
+    height: 36px;
+    background: #DCE6FF;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.toggle-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 13px;
+}
+
+.header-language span:nth-child(2) {
+    margin-left: 5px;
+    font-size: 13px;
+    color: #A6A6A6;
+}
+
+.header-btn {
+    padding: 13px 20px;
+    background: #7296EC;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.navbar {
+    padding: 30px 0 20px 0;
+}
+
+.header-navbar {
+    display: block;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-item:not(:last-child) {
+    padding-right: 35px;
+}
+
+.navbar-link {
+    font-size: 18px;
+    color: #7F7F7F;
+    font-weight: 500;
+}
+
+.navbar-link:hover {
+    color: #295091;
+}
+
+.ads {
+    padding: 40px 0;
+}
